@@ -24,7 +24,7 @@ spec:
               protocol: TCP
           imagePullPolicy: IfNotPresent
 # Update with the image you build in part 1
-          image: 'quay.io/barnatanuser1/red-hat-workshop:latest'
+          image: 'quay.io/barnatanyuval/red-hat-workshop:latest'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
