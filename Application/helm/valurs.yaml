@@ -3,7 +3,7 @@ ReplicaNumber: 1
 containers:
   containerPort: 8080
   image: 'quay.io/barnatanyuval/red-hat-workshop'
-  tag: 'chart_v1'
+  tag: 'v2'
 
 service:
   servicePort: 8080
