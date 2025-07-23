@@ -5,7 +5,7 @@ type: application
 dependencies:
   - name: user1-hello-world
     repository: oci://ghcr.io/yuvalb26/helm
-    version: 1.0.0
+    version: 1.0.1
     alias: hello-world-1
   - name: user1-hello-world-2
     repository: oci://ghcr.io/yuvalb26/helm
