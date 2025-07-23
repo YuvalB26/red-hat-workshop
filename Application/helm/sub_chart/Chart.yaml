@@ -7,9 +7,5 @@ dependencies:
     repository: oci://ghcr.io/yuvalb26/helm
     version: 1.0.0
     alias: 
-  - name: user1-hello-world
-    repository: oci://ghcr.io/yuvalb26/helm
-    version: 1.0.0
-    alias: deploy2
 version: 1.0.0
 appVersion: "1.0.0"
