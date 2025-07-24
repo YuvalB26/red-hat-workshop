@@ -29,7 +29,7 @@ spec:
           image: {{ .Values.containers.image }}:{{ .Values.containers.tag }}
           volumeMounts:
             - name: index-html
-              mountPath: {{.Values.volume.mount.path}}
+              mountPath: {{ .Values.volume.mount.path }}
           readinessProbe:
              {{- tpl (toYaml .Values.Probes.readiness) . | nindent 12 }}    
           livenessProbe:
