@@ -12,6 +12,7 @@ probes:
   readiness:
     httpGet:
       path: '/templates/deployment'
+      port: 8080
     initialDelaySeconds: 1
     timeoutSeconds: 1
     periodSeconds: 10
@@ -20,6 +21,7 @@ probes:
   liveness:
     httpGet:
       path: '/templates/deployment'
+      port: 8080
     initialDelaySeconds: 2
     timeoutSeconds: 1
     periodSeconds: 10
