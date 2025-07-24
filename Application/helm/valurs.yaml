@@ -1,9 +1,0 @@
-ReplicaNumber: 1
-
-containers:
-  containerPort: 8080
-  image: 'quay.io/barnatanyuval/red-hat-workshop'
-  tag: 'v2'
-
-service:
-  servicePort: 8080
